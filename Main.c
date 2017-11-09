@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
 
 	if (NotesInitExtended(argc, argv))
 	{
-		printf("\nError initializing Notes.");
+		printf("\nError initializing Notes. Exiting.");
 		exit(0);
 	}
 
